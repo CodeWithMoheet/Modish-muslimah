@@ -1,0 +1,81 @@
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+
+/* ============ desktop view .end// ============ */
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+}
+
+/* ============ mobile view .end// ============ */
+@media (min-width: 380px) and (max-width: 600px) {
+
+  /* CSS */
+  .product__item__text {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  /* .product__item{
+        width: 300px;
+    } */
+  .col-lg-3.col-md-6.col-sm-6.mix.new-arrivals {
+    text-align: center;
+    align-content: initial;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .col-md-2.bg-light.px-3.py-5 {
+    text-align: center;
+  }
+
+  .mm-news {
+    /* display: !important; */
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .m-footer {
+    padding: 0px !important;
+    margin-left: 40px;
+
+  }
+
+  .m-responsive {
+    position: relative;
+    right: 215px;
+  }
+
+  .mm-button {
+    margin-bottom: 22px;
+  }
+
+  .carousel-caption {
+    width: 65%;
+  }
+
+
+}

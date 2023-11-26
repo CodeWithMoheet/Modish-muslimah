@@ -14,7 +14,6 @@
   pointer-events: none;
 }
 
-
 .carousel-caption {
   width: 30%;
   top: 200px;
@@ -55,7 +54,8 @@ li.p-3.megamenutext1 {
 
 .mm-menu-text {
   font-size: 12px;
-  font-weight: lighter;
+  font-weight: normal;
+  font-family: sans-serif;
 }
 
 .mm-icons {
@@ -64,40 +64,29 @@ li.p-3.megamenutext1 {
 
 /* SLIDER BG IMAGES */
 .mm-bg {
-  /* The image used */
   background-image: url("images/New Project2.png");
-  /* Full height */
   height: 100vh;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .mm-bg1 {
-  /* The image used */
   background-image: url("images/New Project1 (1).png");
-  /* Full height */
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .mm-bg2 {
-  /* The image used */
   background-image: url("images/New Project3.png");
-  /* Full height */
   height: 100vh;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* SLIDER BG IMAGES */
-
 
 @keyframes slide {
   from {
@@ -332,6 +321,14 @@ h5 {
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
+}
+
+.mm-myhover{
+  color: #d50cbf;
+}
+.mm-myhover:hover{
+  color: blue;
+  background-color: red;
 }
 
 /* 
